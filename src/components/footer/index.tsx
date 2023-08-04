@@ -1,6 +1,5 @@
 import style from "./style.module.css";
 import img from "./logo.png";
-import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -9,28 +8,28 @@ export default function Footer() {
                 <div>
                     <img src={img} alt="" />
                     <p>
-                        A Maxana está empenhada em dinamizar os seus objectivos
-                        e impulsionar o seu negócio.
+                        Entrega-lá - a solução perfeita para atender às suas
+                        necessidades de entrega em Moçambique!
                     </p>
                 </div>
 
                 <div>
                     <h3>Informações de Contacto</h3>
-                    <Link to="#">
+                    <a href="#">
                         CHAMANCULO A, RUA MARCELINO DOS SANTOS, Q23, CASA Nº 515
-                    </Link>
-                    <Link to="#">Ligações: +258 84 2033333 </Link>
-                    <Link to="#">WhatsApp: 258 84 2033333 </Link>
-                    <Link to="#">info@maxanamicrocredito.co.mz </Link>
+                    </a>
+                    <a href="#">Ligações: +258 84 2033333 </a>
+                    <a href="#">WhatsApp: 258 84 2033333 </a>
+                    <a href="#">info@maxanamicrocredito.co.mz </a>
                 </div>
 
                 <div>
                     <h3>Acesso Rápido</h3>
-                    <Link to="/">Início</Link>
-                    <Link to="/about">Sobre Nós </Link>
-                    <Link to="/services">Serviços</Link>
-                    <Link to="/contact">Contactos </Link>
-                    <Link to="/faqs">faq's </Link>
+                    <a href="/">Início</a>
+                    <a href="/about">Sobre Nós </a>
+                    <a href="/services">Serviços</a>
+                    <a href="/contact">Contactos </a>
+                    <a href="/faqs">faq's </a>
                 </div>
             </div>
 
