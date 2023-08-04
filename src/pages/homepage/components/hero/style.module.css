@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    background: linear-gradient(314deg, #5e3838a9, #000000a9),
+        url(./delivery1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.box {
+    padding: 5.5rem 5%;
+    width: 100%;
+    max-width: 930px;
+}
+
+.box h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #ee711c;
+    margin-bottom: 30px;
+}
+
+.box strong {
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 30px;
+    padding-right: 10rem;
+}
+
+.box div {
+    display: flex;
+    width: min(500px, 100%);
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box div a {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #f8f5f4;
+    background-color: #ee711c;
+    border: 1px solid #ee711c;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box div a:last-child {
+    background-color: #192e4d;
+}
+
+.box a:hover {
+    opacity: 0.8;
+}
+
+.box span {
+    margin-top: 45px;
+    font-size: 0.9rem;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 520px) {
+    .box {
+        padding: 3.5rem 5%;
+    }
+
+    .box h1 {
+        font-size: 2rem;
+        line-height: unset;
+    }
+
+    .box p {
+        font-size: 0.9rem;
+        padding-right: 0px;
+    }
+}
+@media (max-width: 420px) {
+    .box div {
+        gap: 15px;
+    }
+    .box div a {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

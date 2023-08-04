@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    background: linear-gradient(314deg, #5e3838a9, #000000a9), url(./1.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    padding: 4rem 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
