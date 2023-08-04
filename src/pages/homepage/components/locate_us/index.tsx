@@ -24,9 +24,9 @@ export default function LocateUs() {
                 <br />
 
                 <h2>Horário de Serviço</h2>
-                <p>Segunda - Sexta - 09:00 - 13:00 / 14:00 - 17:00</p>
-                <p>Sabados - 08:00 - 13:00</p>
-                <p>Domingos - Fechado</p>
+                <p>Segunda - Sexta - 06:00 - 18:00</p>
+                <p>Sabados - 06:00 - 18:00</p>
+                <p>Domingos - 06:00 - 18:00</p>
             </div>
         </div>
     );
