@@ -1,0 +1,77 @@
+.container {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .item1,
+.container .item2,
+.container .item3 {
+    flex: 1;
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.63),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url(./1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 560px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .item2 {
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.63),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url(./2.jpg);
+}
+.container .item3 {
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.63),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url(./3.jpg);
+}
+
+.container .item1 strong,
+.container .item2 strong,
+.container .item3 strong {
+    font-size: 2rem;
+}
+
+.container .item1 h3,
+.container .item2 h3,
+.container .item3 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.container .item1 p,
+.container .item2 p,
+.container .item3 p {
+    line-height: 30px;
+}
+
+@media (max-width: 900px) {
+    .container .item1,
+    .container .item2,
+    .container .item3 {
+        flex: unset !important;
+        width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .container .item1,
+    .container .item2,
+    .container .item3 {
+        width: 100%;
+    }
+}

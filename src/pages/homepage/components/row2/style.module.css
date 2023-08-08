@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    padding: 150px 5%;
+    color: #222;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container .left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container .left h1 {
+    font-size: 1.7rem;
+}
+.container .left span {
+    display: block;
+    font-size: 3rem;
+    color: #ec710a;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.container .left p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-top: 15px;
+}
+.container .left .line {
+    background-color: #ec710a;
+    width: 200px;
+    height: 1.5px;
+    margin-top: 30px;
+}
+
+.container .right {
+    width: 40%;
+}
+
+.container .right h2 {
+    font-size: 1.4rem;
+    color: #ec710a;
+    margin-bottom: 30px;
+}
+.container .right p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .left {
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: start;
+    }
+
+    .container .right,
+    .container .left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
