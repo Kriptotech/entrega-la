@@ -15,7 +15,7 @@ export default function Desktop() {
                     <Link to="/faqs">FAQ’s</Link>
                     <Link
                         target="_blank"
-                        to="https://api.whatsapp.com/send?phone=258864660991&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+                        to="https://api.whatsapp.com/send?phone=258864660991&text=Ola, voces podem me judar?"
                     >
                         CONTACTAR GESTOR
                     </Link>

@@ -34,7 +34,7 @@ export default function Products() {
                                     <span>{v?.price}</span>
                                     <small>{v?.text ? v?.text : "__"} </small>
                                     <a
-                                        href={`https://api.whatsapp.com/send?phone=258864660991&text=Olá, como podemos ajudar com o produto: ${
+                                        href={`https://api.whatsapp.com/send?phone=258864660991&text=Olá, podem me ajudar com o produto: ${
                                             v?.name
                                         }, preço ${v?.price} ${
                                             v?.text && `(${v?.text})`
@@ -55,7 +55,7 @@ export default function Products() {
                                     <span>{v?.price}</span>
                                     <small>{v?.text ? v?.text : "__"} </small>
                                     <a
-                                        href={`https://api.whatsapp.com/send?phone=258864660991&text=Olá, como podemos ajudar com o medicamento: ${
+                                        href={`https://api.whatsapp.com/send?phone=258864660991&text=Olá, podem me ajudar com o medicamento: ${
                                             v?.name
                                         }, preço ${v?.price} ${
                                             v?.text && `(${v?.text})`
