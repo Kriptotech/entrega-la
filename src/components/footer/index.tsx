@@ -1,12 +1,12 @@
 import style from "./style.module.css";
-import img from "./logo.png";
+// import img from "./logo.png";
 
 export default function Footer() {
     return (
         <footer className={style.container}>
             <div className={style.row}>
                 <div>
-                    <img src={img} alt="" />
+                    {/* <img src={img} alt="" /> */}
                     <p>
                         Entrega-lá - a solução perfeita para atender às suas
                         necessidades de entrega em Moçambique!
